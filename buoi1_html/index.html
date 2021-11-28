@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="trang web ve coffee and tea">
+    <title> CyberSoft Coffee </title>
+</head>
+<style>
+    th, td {
+        border: 1px solid black;
+        /* border-collapse: collapse; */
+    }
+ 
+    #img1{
+        background-image: url(./Image_buoi1/chilling-cafe-13.jpg);
+        background-repeat: no-repeat ;
+        background-size: cover;
+        color: white;
+    }
+    #img2{
+        background-image: url(./Image_buoi1/chilling-cafe-11.jpg);
+        background-repeat: no-repeat ;
+        background-size: cover;
+        color: white;
+    }
+</style>
+<body>
+    <header>
+
+        <h1 style="
+            text-align: center; 
+            background-color: #394b59;
+            color: #fff;
+            font-size: 20px; 
+            height: 30px;
+            line-height: 30px;"
+        > 
+            CyberSoft Coffee 
+        </h1>
+        <!-- division -->
+        <nav style="text-align: center;">
+            <a href="#" style="padding-right: 10px; "> Home </a>
+            <a href="#" style="padding-right: 10px; "> Menu </a>
+            <a href="#" target="_blank"> Order </a>
+        </nav>
+
+        <hr>
+    </header>
+    <content>
+        <h2 style="color: #97653a;
+                 text-align: center;"
+        > About our Coffee </h2>
+
+        <!-- lorem : Tạo đoạn văn bản có sẵn -->
+         <!-- alt + z : wrap văn bản lại -->
+        <p style="text-align: right; 
+                width: 50%;
+                margin-left: auto;
+        ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo exercitationem enim quod architecto quae voluptas rerum accusantium accusamus sit minima. Soluta sit inventore dicta provident atque sed distinctio? Nesciunt, natus.</p>
+        <hr>
+        <h2 style="color: #97653a;
+                 text-align: center;"
+        > Special Items </h2>
+        
+        <div style=" width: 40%;">
+            <h3>The coffee list 1</h3>
+            <ul style="margin-left: 10px;">
+                <li style="color:blue "> Black coffee</li>
+                <li style="color:blue "> Pink </li>
+                <li style="color:blue "> Green coffee</li>
+            </ul>
+            <div style="
+                display: flex;
+                justify-content: space-between;
+            ">
+                <img style="width:49% ; height: auto;" src="./Image_buoi1/chilling-cafe-11.jpg" alt="chilling-cafe-11">
+                <img style="width:49% ; height: auto;"src="./Image_buoi1/chilling-cafe-12.jpg" alt="chilling-cafe-">
+            </div>
+
+            <h3>The coffee list 2</h3>
+            <ol style="margin-left: 10px; list-style-type: upper-roman;">
+                <li style="color:blue "> Soft tea </li>
+                <li style="color:blue "> Green art</li>
+                <li style="color:blue "> Black art</li>
+            </ol>
+            <img style="width:100% ; height: auto;" src="./Image_buoi1/chilling-cafe-13.jpg" alt="chilling-cafe-">
+        </div>
+        <hr>
+
+        <h2 style="color: #97653a;
+        text-align: center;"
+        > Menu </h2>
+
+        <div style="display: flex; justify-content: center;">
+            <table 
+                cellpadding="10px"
+                cellspacing="0"
+                width= "600px"
+                style="border: 1px solid rgb(7, 7, 7);  border-collapse: collapse"
+            >
+                
+                <thead style="background-color: gray;" >
+                    <tr >
+                        <th colspan="2">
+                            Name
+                        </th>
+                        <th colspan="1">
+                            Type
+                        </th >
+                        <th colspan="1">
+                            Price
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <div>
+
+                        <tr>
+                            <td rowspan="4" id="img1">
+                                Traditional Coffee
+                            </td>
+                            <td rowspan="2">
+                                Vietnamese coffee pin
+                            </td>
+                            <td>
+                                Hot
+                            </td>
+                            <td>
+                                60.000
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Cold
+                            </td>
+                            <td>
+                                20.000
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">
+                                milk Coffee
+                            </td>
+                            <td>
+                                Hot
+                            </td>
+                            <td>
+                                38.000
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Cold
+                            </td>
+                            <td>
+                                54.000
+                            </td>
+                        </tr>
+                    </div>
+
+                    <div>
+                        <tr>
+                            <td rowspan="3" id="img2">
+                                Expresso
+                            </td>
+                            <td>
+                                American coffee
+                            </td>
+                            <td rowspan="3">
+                                Hot
+                            </td>
+                            <td>
+                                110.000
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Machiato
+                            </td>
+                            <td rowspan="2">
+                                40.000
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Capuchino
+                            </td>
+                        </tr>
+                    </div>
+                </tbody>
+               
+            </table>
+        </div>
+        <hr>
+
+        <h2 style="color: #97653a;
+        text-align: center;"
+        > Talk to us </h2>
+        <p style="text-align: center;">
+            Reach us via 
+            <b> Email: </b>
+            <a href="mailto:cybercafe@gmail.com">
+                cybercafe@gmail.com
+            </a>
+            or
+            <b> Hotline: </b>
+            <a href="tel:0961051014">
+                0961 051 014
+            </a>
+            . Thank you
+        </p>
+
+    </content>
+    
+</body>
+</html>
